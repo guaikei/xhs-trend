@@ -6,6 +6,11 @@ name: xhs-trend
 description: "小红薯热点趋势数据源（只读）：关键词搜笔记、爆款选题、笔记详情、评论舆情、博主作品、粉丝获赞与收藏，输出 JSON，不登录不发布。触发词：小红书、小红薯、xhs、rednote、笔记链接、博主主页、竞品监控、KOL筛选、评论分析。用户要查小红书笔记、评论、选题、竞品或舆情时使用；抖音、快手、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.2.2
+display_name: "小红薯热点追踪｜热门笔记·趋势分析·爆点监控·选题参考"
+display_name_en: "Xiaohongshu Trend Tracker"
+description_zh: "小红薯热点趋势数据源（只读）：关键词搜索笔记与爆款选题、单篇笔记详情、评论舆情、博主作品列表与粉丝获赞收藏数据；支持综合/最新/最多点赞/最多评论/最多收藏 5 种排序与类型、时间、数量筛选，全部以结构化 JSON 输出（标题、作者、点赞/收藏/评论/分享、链接、时间）供 AI 直接分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索/作品/评论分别最多 40/30/20（详情无条数限制），超限返回 PLAN_LIMIT，参数越界直接失败不改默认值。适用于热点趋势判断、爆点监控、蹭热点选题、笔记节奏规划、竞品监控与评论舆情。"
+description_en: "Read-only Xiaohongshu (Rednote) hot-trend data source: keyword note search for trending topics, single-note details, comment sentiment mining, and creator video-free note lists with follower like/save insights. Supports 5 sorting modes (relevance/latest/most-liked/most-commented/most-saved) plus type, time-window, and count filters; results are structured JSON (title, author, likes/saves/comments/shares, links, timestamps) ready for direct AI analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search/creator-notes/comments at 40/30/20 (details unlimited), returning PLAN_LIMIT on breach; out-of-range parameters fail fast instead of falling back to defaults. Ideal for trend judgment, breakout monitoring, riding hot topics, posting cadence planning, competitor tracking, and comment mining."
+author: "新郑市怪奇信息技术工作室"
 homepage: https://www.guaikei.com
 metadata:
   openclaw:
